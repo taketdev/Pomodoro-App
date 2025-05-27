@@ -11,12 +11,18 @@
 </head>
 <body>
     <div class="content">
+        <div class="icons">
+            <button class="btn icon"><img src="./img/icons/settings.png" alt=""></button>
+            <button class="btn icon"><img src="./img/icons/wand.png" alt=""></button>
+            <button class="btn icon"><img src="./img/icons/tomatoe.png" alt=""></button>
+        </div>
         <h1>Wizardoro</h1>
         <div class="main_flex_wrapper">
             <div class="timer_buttons_wrapper">
                 <div class="timer">
                     <img class="border" src="./img/ramen.png" alt="">
-                    <div class="timer_display">25:00</div>
+                    <div class="timer_display" id="timer">25:00</div>
+                    <audio id="alarm" src="./assets/ring.wav"></audio>
                 </div>
 
                 <div class="buttons">
@@ -31,5 +37,6 @@
             </div>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
