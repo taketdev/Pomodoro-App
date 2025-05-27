@@ -5,13 +5,22 @@ body{
     margin: 0 auto;
 }
 .content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-height: 1080px;
+    background-image: url(./img/background.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 1024px;
 }
-.background{
+.border{
+    max-width: 537px;
+}
+.buttons{
+    max-width: 359px;
+}
+.btn{
     display: flex;
-    justify-content: center;
-    max-width: 1080px;
+    flex-direction: column;
+    max-width: 359px;
+}
+.wizard{
+    max-height: 635px;
 }
