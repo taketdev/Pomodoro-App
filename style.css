@@ -18,12 +18,18 @@ h1{
     justify-content: center;
     padding-top: 22px;
 }
-.timer-buttons-wrapper {
+.main_flex_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+.timer_buttons_wrapper {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 100%;
-    margin-left: 32px;
+    margin-left: 12px;
 }
 .timer{
     display: flex;
@@ -47,6 +53,12 @@ h1{
     display: flex;
     flex-direction: column;
     max-width: 359px;
+}
+.wizard_wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
 }
 .wizard{
     max-height: 635px;
