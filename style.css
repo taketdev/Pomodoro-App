@@ -3,18 +3,45 @@ body{
     box-sizing: border-box;
     font-family: "Pixelify Sans", sans-serif;
     margin: 0 auto;
+    max-width: 1024px;
 }
 .content{
     background-image: url(./img/background.png);
     background-size: auto;
     background-repeat: no-repeat;
+    background-position: center;
     height: 1024px;
+}
+h1{
+    font-size: 74px;
+    display: flex;
+    justify-content: center;
+    padding-top: 22px;
+}
+.timer-buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 32px;
+}
+.timer{
+    display: flex;
 }
 .border{
     max-width: 537px;
+    width: 100%;
 }
 .buttons{
-    max-width: 359px;
+    width: 537px;
+    max-width: 537px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding-top: 15px;
+    margin-left: 0;
+    margin-right: 0;
 }
 .btn{
     display: flex;
