@@ -14,6 +14,7 @@ body{
 }
 h1{
     font-size: 74px;
+    color: #ffe066;
     display: flex;
     justify-content: center;
     padding-top: 22px;
@@ -31,12 +32,28 @@ h1{
     align-items: flex-start;
     margin-left: 12px;
 }
-.timer{
+.timer {
     display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
 }
-.border{
+.border {
     max-width: 537px;
     width: 100%;
+    display: block;
+}
+.timer_display {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 142px;
+    color: #fff6a5;
+    text-shadow: 0 0 8px #3D2B46, 0 0 24px #ffe066;
+    font-family: "Pixelify Sans", sans-serif;
+    pointer-events: none;
+    user-select: none;
 }
 .buttons{
     width: 537px;
