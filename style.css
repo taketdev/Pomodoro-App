@@ -66,10 +66,25 @@ h1{
     margin-left: 0;
     margin-right: 0;
 }
-.btn{
+.btn {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
     display: flex;
     flex-direction: column;
+    align-items: center;
     max-width: 359px;
+    transition: transform 0.1s;
+}
+.btn img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.btn:active {
+    transform: scale(0.96);
 }
 .wizard_wrapper {
     display: flex;
