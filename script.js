@@ -39,4 +39,3 @@ resetBtn.onclick = function() {
     remaining = 25 * 60;
     updateDisplay();
 };
-
